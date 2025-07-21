@@ -1,0 +1,16 @@
+[project]
+name = "a2a_system"
+version = "0.1.0"
+description = "Agent-to-Agent AI System using FastAPI and gRPC"
+authors = [{name = "Xuyen Do", email = "xuyen.d@belive.sg"}]
+dependencies = [
+    "fastapi",
+    "grpcio",
+    "grpcio-tools",
+    "uvicorn",
+    "google-generativeai"
+]
+requires-python = ">=3.12"
+
+[tool.setuptools]
+packages = ["agent_host", "agents", "agents.google_search", "agents.summary_video", "agents.text_to_image", "shared"]

@@ -1,0 +1,7 @@
+/a2a_system.egg-info
+/agent_host/__pycache__
+/build/lib
+/protos/__pycache__
+/shared/__pycache__
+/agents/google_search/__pycache__
+/agents/summary_video/__pycache__

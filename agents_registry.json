@@ -1,0 +1,14 @@
+{
+  "google_search": {
+    "description": "Search for information on Google",
+    "host": "localhost:50051"
+  },
+  "summary_video": {
+    "description": "Summarize video content",
+    "host": "localhost:50052"
+  },
+  "text_to_image": {
+    "description": "Convert text to images",
+    "host": "localhost:50053"
+  }
+}
